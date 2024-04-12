@@ -40,7 +40,6 @@ public class Zadanie1
                 max = numbers[a];
             }
         }
-
         return max;
     }
 }
