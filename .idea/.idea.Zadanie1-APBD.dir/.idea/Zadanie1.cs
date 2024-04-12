@@ -25,4 +25,22 @@ public class Zadanie1
 
         return (double)sum / numbers.Length;
     }
+    public static int FindMax(int[] numbers)
+    {
+        if (numbers == null || numbers.Length == 0)
+        {
+            throw new ArgumentException("Array is null or empty.");
+        }
+
+        int max = numbers[0]; // Załóżmy, że pierwszy element jest maksymalny
+        for (int i = 1; i < numbers.Length; i++)
+        {
+            if (numbers[i] > max)
+            {
+                max = numbers[i];
+            }
+        }
+
+        return max;
+    }
 }
