@@ -32,7 +32,7 @@ public class Zadanie1
             throw new ArgumentException("Array is null or empty.");
         }
 
-        int max = numbers[0]; // Załóżmy, że pierwszy element jest maksymalny
+        int max = numbers[0];
         for (int i = 1; i < numbers.Length; i++)
         {
             if (numbers[i] > max)
