@@ -33,11 +33,11 @@ public class Zadanie1
         }
 
         int max = numbers[0];
-        for (int i = 1; i < numbers.Length; i++)
+        for (int z = 1; z < numbers.Length; z++)
         {
-            if (numbers[i] > max)
+            if (numbers[z] > max)
             {
-                max = numbers[i];
+                max = numbers[z];
             }
         }
 
