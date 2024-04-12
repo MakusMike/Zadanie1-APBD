@@ -7,5 +7,6 @@ public class Zadanie1
         Console.WriteLine("Hello World");
         Console.WriteLine("Hello! Im World.");
         Console.WriteLine("Who am i?");
+        Console.WriteLine("You are a git noob");
     }
 }
